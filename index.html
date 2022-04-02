@@ -54,12 +54,16 @@
       <!-- Решения для бизнеса-->
       <section class="hero">
         <h1 class="hero-title">Эффективные решения<br />для вашего бизнеса</h1>
-        <button type="button" data-modal-open>Заказать услугу</button>
+        <button type="button" class="button" data-modal-open>
+          Заказать услугу
+        </button>
       </section>
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
           <button type="button" class="modal-button" data-modal-close>
-            close
+            <svg class="modal-close-icon" width="11" height="11">
+              <use href="/images/symbol-defs.svg#icon-close"></use>
+            </svg>
           </button>
         </div>
       </div>
