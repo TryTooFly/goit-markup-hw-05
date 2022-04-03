@@ -420,6 +420,11 @@ a {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-button:hover,
+.modal-button:focus {
+  fill: var(--font-color);
 }
 .filter-button {
   color: var(--primary-text-color);
@@ -476,9 +481,6 @@ a {
 }
 .svg-logo-list:not(:last-child) {
   margin-right: 30px;
-}
-.svg-logo {
-  margin: 16px 32px;
 }
 .logo-client:hover,
 .logo-client:focus {
